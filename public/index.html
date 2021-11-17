@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+			integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="css/style.css" />
+		<title>Socket Chat</title>
+	</head>
+	<body>
+		<div class="join-container">
+			<header class="join-header">
+      <h1><i class="fas fa-globe"></i> Socket Chat</h1>
+				
+			</header>
+			<main class="join-main">
+				<form action="chat.html">
+					<div class="form-control">
+						<label for="username">Nickname</label>
+						<input
+							type="text"
+							name="username"
+							id="username"
+							placeholder="Enter Nickname..."
+							required
+						/>
+					</div>
+					<div class="form-control">
+						<label for="room">Room</label>
+						<select name="room" id="room">
+							<option value="Computer Networking">Computer Networking</option>
+							<option value="TOC">TOC</option>
+							<option value="Operating Sys">Operating Sys</option>
+							<option value="Red hat">Red Hat</option>
+							<option value="Cloud Computing">Cloud Computing</option>
+							<option value="TimePass">TimePass</option>
+						</select>
+					</div>
+					<button type="submit" class="btn">Join Chat</button>
+				</form>
+			</main>
+		</div>
+	</body>
+</html>
