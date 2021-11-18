@@ -27,6 +27,6 @@ npm start
    
 ### Project Collabrators
 - [Pradyumna Gayake](https://github.com/prgayake)
-- [Aniket Sharma](https://github.com)
-- [Fiza Patel](https://github.com)
+- [Aniket Sharma](https://github.com/aniket2702)
+- [Fiza Patel](https://github.com/Fiza14)
 - [Himanshu Shimpi](https://github.com)
