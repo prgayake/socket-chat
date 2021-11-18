@@ -256,9 +256,21 @@ a {
 @media (max-width: 700px) {
 	.chat-main {
 		display: block;
+
 	}
 
 	.chat-sidebar {
 		display: none;
+	}
+	.chat-form-container{
+		display: block;
+	}
+	.chat-form-container form{
+		display: block;
+		margin-left: auto;
+	}
+	.send-btn{
+		padding: 5px;
+		margin: 10px;
 	}
 }
