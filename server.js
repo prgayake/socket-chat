@@ -20,7 +20,7 @@ io.on('connection',socket =>{
 
         socket.join(user.room);
 
-        socket.emit('message',formatmessage('bot','Welcome to chatroom'));
+        socket.emit('message',formatmessage('bot',`Hey  '${user.username}' 👋 Welcome to ${user.room} Group`));
 
         //Broadcast message to all user in char room when new user connects
         socket.broadcast.to(user.room).emit('message',formatmessage('bot',`${user.username} has joined the chat `));
