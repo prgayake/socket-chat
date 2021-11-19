@@ -12,7 +12,7 @@ Realtime chat app using socket.io and vanilla JavaScript
   <li>Change The Directory </li>
   
 ```shell
-cd CN-Chat-Application.git
+cd socket-chat
   
 ```
 
