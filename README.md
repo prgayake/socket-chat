@@ -7,8 +7,10 @@ Realtime chat app using socket.io and vanilla JavaScript
 <ol>
   <li>Cloning Repository </li>
   
-    git clone https://github.com/prgayake/CN-Chat-Application.git
+  ```
+  https://github.com/prgayake/socket-chat.git
   
+  ```
   <li>Change The Directory </li>
   
 ```shell
@@ -21,6 +23,7 @@ cd socket-chat
 
 ```node
 npm start
+  
 ```
   
  <ol>
